@@ -1,0 +1,67 @@
+.Header {
+    height: 100%;
+flex: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.Header h1 {
+    color: #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+.Header h1::selection {
+    color: #B3767E;
+    background-color: #A8E4FF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+.Header input {
+    border: 2px solid #B3767E;
+    color: #7FA2B3;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header input:hover {
+    border: 2px solid #B3767E;
+    color: #FFC3CB;
+    background-color: rgba(255, 255, 255, 0.299);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #FFC3CB;
+    ;
+}
+.Header .Header-right{
+    display: inline-block;
+    align-items: right;
+    padding-left: 10%;
+}
+.Header .Header-center{
+    display: inline-block;
+    align-items: center;
+    padding-left: 50%;
+}
+
+
+.Header .Header-left{
+    display: inline-block;
+    align-items: left;
+}
+.Header .login-details{
+    display: inline-block;
+    align-items: center;
+    padding-right: 10px;
+    color: #7FA2B3;
+    background-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+}

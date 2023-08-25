@@ -1,0 +1,74 @@
+.AddCoupon input {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 2px #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.AddCoupon button {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 2px #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.AddCoupon button:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 8px 8px 2px #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    padding: 0.2em 1em 0.2em 1em;
+}
+
+.AddCoupon .category-box, .company-box {
+    display: inline-block;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 2px #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: auto;
+}
+
+.AddCoupon .coupon-box {
+    display: inline-block;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px #FFC3CB;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: auto;
+}
+
+.AddCoupon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.AddCoupon .mini-boxes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.counter{
+justify-content: right;
+    font-size: 0.1em;
+}

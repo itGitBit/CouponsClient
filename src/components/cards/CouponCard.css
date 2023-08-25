@@ -1,0 +1,35 @@
+.couponCard {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 15%;
+    height: 40em;
+    box-shadow: 10px 10px 5px grey;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #7FA2B3;
+    color: #FFC3CB;
+}
+
+.couponCard:hover {
+    box-shadow: 12px 12px 5px #FFC3CB;
+
+}
+
+.CouponDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.CouponPicture {
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+
+}
