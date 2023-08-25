@@ -11,7 +11,7 @@ import { Layout } from './components/layout/Layout';
 
 
 function App() {
-
+console.log('started');
   return (
     <div className="App">
       <Layout />
